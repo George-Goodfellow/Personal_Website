@@ -1,0 +1,124 @@
+body{
+  font-family: Arial;
+  text-align: center;
+  margin: 40px;
+  color: #000;
+  background-image: url('/users/georgegoodfellow/Documents/Github/George-Arthur/Resources/potential_background_full_color.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#title {
+  display: block;
+  width: 100%;
+  padding-top: 22px;
+  padding-left: 0px;
+  font-size: 150px;
+  font-weight:  bold;
+  letter-spacing: 7px;
+  display: inline-block;
+  margin-bottom: 0px;
+  text-align: left;
+  float: left;
+  width: 100%;
+  line-height: 1;
+  letter-spacing: 4;
+  z-index: 1;
+  color: #FFF;
+}
+
+#Subtitle {
+  display: block;
+  width: 70%;
+  font-size: 35px;
+  font-weight:  normal;
+  letter-spacing: 5px;
+  padding-left: 40px;
+  display: inline-block;
+  text-align: left;
+  float: left;
+  padding-left: 10px;
+  line-height: 1;
+  letter-spacing: 4;
+  z-index: 1;
+  color: #FFF;
+}
+
+ul{
+  padding-top: 150px;
+  z-index: 1
+  display: inline-block;
+  float: right;
+}
+
+li{
+  font-size: 35px;
+  padding-top: 40px;
+  opacity: 0.5;
+  font-weight: 600;
+  word-spacing: 30px;
+  letter-spacing: 10px;
+  float: right;
+  overflow: scroll;
+  display: inline-block;
+  clear: right;
+  color: #FFF;
+  transition: opacity 250ms ease-out;
+}
+
+li:hover {
+  opacity: 1;
+}
+
+a{
+  color: #FFF;
+  text-decoration: none;
+}
+
+.project_grid {
+  display: flex;
+  width: 1000px;
+  flex: 0 0 wrap;
+  justify-content: flex-start;
+  align-content: space-between;
+}
+
+
+.project_grid h2{
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #000;
+  z-index: 5;
+}
+
+.project_grid h3{
+  font-size: 15px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  color: #000;
+  z-index: 5;
+}
+
+.project_grid p {
+  font-size: 12px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  color: #000;
+  z-index: 5;
+}
+
+.Personal_Website, .CurbSide, .HC_Podcast, .Super_App {
+  flex: 0 0 wrap;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  margin: 5px;
+  background-color: #FFF;
+  border-radius: 10px;
+  transition: background-color 100ms ease-out;
+}
+
+.Personal_Website:hover, .CurbSide:hover, .HC_Podcast:hover, .Super_App:hover {
+  background-color: #F0A500;
+}

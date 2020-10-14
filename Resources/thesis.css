@@ -1,0 +1,39 @@
+body{
+  font-family: Arial;
+  text-align: center;
+  color: #000;
+  background-color: #FFF;
+  <-- /users/georgegoodfellow/downloads/slazzer-edit-image.png -->
+}
+
+h1{
+  padding-top: 55px;
+  font-size: 150px;
+  font-weight:  bold;
+  letter-spacing: 20px;
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  float: left;
+  padding-left: 20px;
+  line-height: 1;
+  letter-spacing: 4;
+  z-index: 1;
+  color: #000;
+}
+
+
+h2{
+  font-size: 35px;
+  font-weight: normal;
+  letter-spacing: 4px;
+  display: inline-block;
+  text-align: left;
+  float: left;
+  padding-left: 35px;
+  width: 600px;
+  line-height: 1;
+  letter-spacing: 4;
+  z-index: 1;
+  color: #000;
+}
